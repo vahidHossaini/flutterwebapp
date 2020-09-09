@@ -6,8 +6,8 @@ workflows:
         name: iOS App
         environment:
             vars:
-                XCODE_WORKSPACE: "MiladApp"
-                XCODE_SCHEME: "MiladApp"
+                XCODE_WORKSPACE: "flutterwebapp"
+                XCODE_SCHEME: "flutterwebapp"
             xcode: latest
             cocoapods: default
         scripts:
