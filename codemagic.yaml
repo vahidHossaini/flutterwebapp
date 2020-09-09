@@ -13,5 +13,5 @@ workflows:
         scripts:
             - flutter build ios --no-codesign 
         artifacts:
-            - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
+            - /Users/builder/clone/build/ios/iphoneos/Runner.app
             - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
